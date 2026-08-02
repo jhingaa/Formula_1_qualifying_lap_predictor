@@ -9,6 +9,9 @@ data/live/
 __pycache__/
 *.py[cod]
 
+# Design mock-ups and screenshots — kept locally, not part of the project
+prototypes/
+
 # Local editor / tooling state
 .claude/
 .vscode/
