@@ -4,6 +4,36 @@ Predict F1 lap times from tyre compound, tyre age, weather, driver/team, circuit
 and a fuel-load proxy — then track a live race weekend and compare real pace to
 what the model expects.
 
+The qualifying model predicts each driver's **gap to pole in percent** from
+practice pace plus season form, and it does so *before qualifying runs*. Measured
+over 11 rounds of 2026, leave-one-round-out: **0.439% MAE** (~0.36 s), pole
+called correctly in **7 of 11** rounds.
+
+## The dashboard
+
+Predicted qualifying order, with the measured confidence behind it — the gauge
+breaks down into circuit accuracy, order resolution, practice volume and
+conditions, none of which are asserted rather than measured.
+
+![Dashboard — predicted qualifying lap times and model confidence](docs/screenshots/dashboard.jpg)
+
+The drivers' championship *as it stood after the selected race week*, not today's
+table. Pick an earlier round and you see what a fan would have seen at the time,
+including places gained and lost that weekend.
+
+![Drivers — championship standings after the selected round](docs/screenshots/drivers-standings.jpg)
+
+The full calendar. Rounds already run open their predictions; rounds still to
+come are marked upcoming and count down live.
+
+![Circuits — full season calendar with live countdowns](docs/screenshots/circuits.jpg)
+
+Selecting a weekend that hasn't happened shows the session schedule in local
+circuit time, a countdown to first practice, and the championship going into that
+round. Predictions replace this as soon as FP1 data lands.
+
+![Upcoming weekend — session schedule and countdown](docs/screenshots/upcoming-weekend.jpg)
+
 ## Data source
 
 **FastF1** is the primary source (official F1 timing API, 2018–present) — it's the
