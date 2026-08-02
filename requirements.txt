@@ -1,0 +1,4 @@
+fastf1>=3.8
+pandas>=2.3
+numpy>=2.0
+scikit-learn>=1.9

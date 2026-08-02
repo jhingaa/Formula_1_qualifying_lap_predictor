@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>F1 Lap Predictor</title>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/lipis/flag-icons@7.2.3/css/flag-icons.min.css">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<div class="app">
+
+  <!-- ===================== SIDEBAR ===================== -->
+  <aside class="sidebar">
+    <div class="brand">
+      <div class="brand-logo">F1</div>
+      <div class="brand-text">
+        <div class="brand-title">LAP PREDICTOR</div>
+        <div class="brand-sub">Predict. Analyze. Perform.</div>
+      </div>
+    </div>
+
+    <nav class="nav">
+      <div class="nav-label">Main</div>
+      <a class="nav-item active" data-view="dashboard"><i data-lucide="layout-dashboard"></i>Dashboard</a>
+      <a class="nav-item" data-view="predictions"><i data-lucide="line-chart"></i>Predictions</a>
+      <a class="nav-item" data-view="live"><i data-lucide="radio"></i>Live Weekend</a>
+      <a class="nav-item" data-view="drivers"><i data-lucide="users"></i>Drivers</a>
+      <a class="nav-item" data-view="circuits"><i data-lucide="map-pin"></i>Circuits</a>
+
+      <div class="nav-label">Data</div>
+      <a class="nav-item" data-view="data"><i data-lucide="database"></i>Session Data</a>
+      <a class="nav-item" data-view="model"><i data-lucide="brain"></i>Model Insights</a>
+
+      <div class="nav-label">Settings</div>
+      <a class="nav-item" data-view="settings"><i data-lucide="settings"></i>Settings</a>
+      <a class="nav-item" data-view="about"><i data-lucide="info"></i>About</a>
+    </nav>
+
+    <div class="model-status card">
+      <div class="ms-head"><span>MODEL STATUS</span><span class="ms-dot" id="ms-status">Optimal</span></div>
+      <div class="ms-row"><span>Model Version</span><b id="ms-version">v2.1.0</b></div>
+      <div class="ms-row"><span>Trained On</span><b id="ms-trained">2021 - 2024 Data</b></div>
+      <div class="ms-row"><span>Last Updated</span><b id="ms-updated">25 Jul 2024</b></div>
+      <div class="ms-row"><span>Next Update</span><b id="ms-next">After FP3</b></div>
+      <button class="ms-btn" data-goto="model">View Model Details <i data-lucide="arrow-right"></i></button>
+    </div>
+  </aside>
+
+  <!-- ===================== MAIN ===================== -->
+  <main class="main">
+
+    <!-- Header (always visible; contextual to selected event) -->
+    <header class="topbar">
+      <div class="event">
+        <span class="fi fi-be event-flag" id="event-flag"></span>
+        <div>
+          <div class="event-titlerow">
+            <h1 id="event-name">Belgian Grand Prix 2024</h1>
+            <!-- Circuit selector -->
+            <div class="selector" id="selector">
+              <button class="sel-btn" id="sel-btn"><i data-lucide="chevrons-up-down"></i><span id="sel-label">Select Circuit</span></button>
+              <div class="sel-menu" id="sel-menu"></div>
+            </div>
+          </div>
+          <p id="event-meta">Circuit de Spa-Francorchamps</p>
+        </div>
+      </div>
+
+      <div class="topbar-right">
+        <div class="session-pill">
+          <div class="sp-label">CURRENT SESSION</div>
+          <div class="sp-body">
+            <span class="sp-tag" id="sp-tag">FP2</span>
+            <span class="sp-live"><i class="dot"></i><span id="sp-live">Live</span></span>
+            <span class="sp-ends">Ends in <b id="sp-ends">01:23:45</b></span>
+          </div>
+        </div>
+        <div class="weather" id="weather"></div>
+        <button class="btn-refresh" id="btn-refresh"><i data-lucide="refresh-cw"></i>Refresh Data</button>
+      </div>
+    </header>
+
+    <!-- ============ VIEW: DASHBOARD ============ -->
+    <div class="view active" id="view-dashboard">
+
+      <!-- Shown instead of the panels below when the selected weekend hasn't run -->
+      <div id="dash-upcoming" hidden></div>
+
+      <div id="dash-live">
+      <div class="prequali" id="prequali" hidden></div>
+      <section class="grid-3">
+        <div class="card">
+          <h3 class="card-title">WEEKEND PROGRESS</h3>
+          <div class="stepper" id="stepper"></div>
+          <div class="note"><i data-lucide="info"></i> Predictions will improve as more session data becomes available.</div>
+        </div>
+        <div class="card">
+          <h3 class="card-title">TRACK INFORMATION</h3>
+          <div class="track-body">
+            <svg class="track-map" viewBox="0 0 200 120" id="track-map"></svg>
+            <div class="track-facts" id="track-facts"></div>
+          </div>
+          <button class="link-btn" data-goto="circuit">View Circuit Details</button>
+        </div>
+        <div class="card">
+          <h3 class="card-title">MODEL CONFIDENCE</h3>
+          <div class="gauge-wrap">
+            <svg class="gauge" viewBox="0 0 240 148" id="gauge"></svg>
+          </div>
+          <div class="conf-parts" id="conf-parts"></div>
+          <p class="gauge-note" id="gauge-note"></p>
+        </div>
+      </section>
+
+      <section class="grid-main">
+        <div class="card">
+          <div class="card-head">
+            <div>
+              <h3 class="card-title">PREDICTED QUALIFYING LAP TIMES <i data-lucide="info" class="i-sm"></i></h3>
+              <p class="card-sub">Predictions for Best Qualifying Lap</p>
+            </div>
+            <div class="select" id="drv-filter">Show: All Drivers <i data-lucide="chevron-down"></i>
+              <div class="filter-menu" id="filter-menu">
+                <a data-filter="all">All Drivers</a>
+                <a data-filter="top10">Top 10</a>
+                <a data-filter="top5">Top 5</a>
+              </div>
+            </div>
+          </div>
+          <div class="qtable">
+            <div class="qhead">
+              <span>POS</span><span>DRIVER</span><span>TEAM</span>
+              <span>BEST LAP RANGE (S)</span><span class="ta-r">PREDICTED BEST (S)</span><span>CONFIDENCE</span>
+            </div>
+            <div id="qbody"></div>
+          </div>
+          <div class="qlegend">
+            <span><i class="lg green"></i> Within Expected Range</span>
+            <span><i class="lg red"></i> Outside Expected Range</span>
+          </div>
+        </div>
+
+        <div class="rightcol">
+          <div class="card">
+            <h3 class="card-title">FASTEST SECTOR PREDICTIONS</h3>
+            <div id="sectors"></div>
+            <div class="ideal-lap"><span>Ideal Lap (Sum)</span><b id="ideal-lap">1:41.300s</b></div>
+          </div>
+          <div class="card">
+            <h3 class="card-title">KEY INSIGHTS</h3>
+            <div id="insights"></div>
+          </div>
+        </div>
+      </section>
+
+      <section class="grid-pole" id="pole-section">
+        <div class="card">
+          <div class="card-head">
+            <div>
+              <h3 class="card-title">POLE PREDICTION &mdash; TOP 4 TEAMS <i data-lucide="info" class="i-sm"></i></h3>
+              <p class="card-sub" id="pole-sub"></p>
+            </div>
+            <div class="pole-teams" id="pole-teams"></div>
+          </div>
+          <div class="pbtable">
+            <div class="pbhead" id="pole-head"></div>
+            <div id="pole-body"></div>
+          </div>
+          <p class="pole-note" id="pole-note"></p>
+        </div>
+      </section>
+
+      <section class="grid-accuracy">
+        <div class="card">
+          <h3 class="card-title">PREDICTION ACCURACY (QUALIFYING) <i data-lucide="info" class="i-sm"></i></h3>
+          <div class="acc-body">
+            <div class="acc-metrics" id="acc-metrics"></div>
+            <div class="acc-chart">
+              <div class="acc-legend"><span><i class="lg red"></i> MAE</span><span><i class="lg grey"></i> RMSE</span></div>
+              <svg id="acc-chart" viewBox="0 0 520 180"></svg>
+            </div>
+          </div>
+        </div>
+      </section>
+      </div><!-- /#dash-live -->
+    </div>
+
+    <!-- ============ Other views (rendered by JS) ============ -->
+    <div class="view" id="view-predictions"></div>
+    <div class="view" id="view-drivers"></div>
+    <div class="view" id="view-circuits"></div>
+    <div class="view" id="view-circuit"></div>
+    <div class="view" id="view-data"></div>
+    <div class="view" id="view-model"></div>
+    <div class="view" id="view-live"></div>
+    <div class="view" id="view-settings"></div>
+    <div class="view" id="view-about"></div>
+
+  </main>
+</div>
+
+<!-- Shown while the server is fetching data or fitting the model -->
+<div class="busy" id="busy" hidden>
+  <div class="busy-card">
+    <div class="busy-spinner"></div>
+    <div class="busy-title" id="busy-title">Working…</div>
+    <p class="busy-detail" id="busy-detail"></p>
+    <div class="busy-elapsed" id="busy-elapsed"></div>
+    <div class="busy-hint">Please wait — the page will update on its own.</div>
+  </div>
+</div>
+
+<script src="https://unpkg.com/lucide@latest"></script>
+<script src="app.js"></script>
+</body>
+</html>

@@ -1,0 +1,19 @@
+# FastF1 on-disk cache — ~2 GB of downloads, entirely regenerable.
+# config.enable_cache() recreates it on first run.
+data/cache/
+
+# Recorded live-timing streams (produced by live.py record)
+data/live/
+
+# Python bytecode
+__pycache__/
+*.py[cod]
+
+# Local editor / tooling state
+.claude/
+.vscode/
+.idea/
+
+# Scratch files
+*.bak
+*.tmp

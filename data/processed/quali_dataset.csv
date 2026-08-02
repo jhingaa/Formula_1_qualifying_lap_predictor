@@ -1,0 +1,240 @@
+Year,Round,EventName,Circuit,Driver,Team,Compound,BestLapTime,AirTemp,TrackTemp,Humidity,WindSpeed,Rainfall
+2026,1,Australian Grand Prix,Melbourne,ALB,Williams,SOFT,80.941,20.5,33.6,62.8,2.8,False
+2026,1,Australian Grand Prix,Melbourne,ALO,Aston Martin,SOFT,81.969,20.3,34.5,66.4,1.2,False
+2026,1,Australian Grand Prix,Melbourne,ANT,Mercedes,SOFT,78.811,20.4,31.6,60.7,2.3,False
+2026,1,Australian Grand Prix,Melbourne,BEA,Haas F1 Team,SOFT,80.311,20.4,33.1,63.4,1.6,False
+2026,1,Australian Grand Prix,Melbourne,BOR,Audi,SOFT,80.221,20.4,33.2,63.4,2.1,False
+2026,1,Australian Grand Prix,Melbourne,BOT,Cadillac,SOFT,83.244,20.3,34.5,66.4,1.2,False
+2026,1,Australian Grand Prix,Melbourne,COL,Alpine,SOFT,81.2,20.4,34.5,66.3,2.3,False
+2026,1,Australian Grand Prix,Melbourne,GAS,Alpine,SOFT,80.501,20.5,34.1,63.6,2.1,False
+2026,1,Australian Grand Prix,Melbourne,HAD,Red Bull Racing,SOFT,79.303,20.4,31.3,60.4,4.3,False
+2026,1,Australian Grand Prix,Melbourne,HAM,Ferrari,SOFT,79.478,20.4,31.3,60.4,4.3,False
+2026,1,Australian Grand Prix,Melbourne,HUL,Audi,SOFT,80.303,20.5,33.0,63.4,2.1,False
+2026,1,Australian Grand Prix,Melbourne,LAW,Racing Bulls,SOFT,79.994,20.4,31.3,60.4,4.3,False
+2026,1,Australian Grand Prix,Melbourne,LEC,Ferrari,SOFT,79.327,20.4,31.3,60.4,4.3,False
+2026,1,Australian Grand Prix,Melbourne,LIN,Racing Bulls,SOFT,79.971,20.5,33.9,64.1,1.3,False
+2026,1,Australian Grand Prix,Melbourne,NOR,McLaren,SOFT,79.475,20.4,31.3,60.4,4.3,False
+2026,1,Australian Grand Prix,Melbourne,OCO,Haas F1 Team,SOFT,80.491,20.5,33.9,64.1,1.3,False
+2026,1,Australian Grand Prix,Melbourne,PER,Cadillac,SOFT,82.605,20.3,34.5,66.4,1.2,False
+2026,1,Australian Grand Prix,Melbourne,PIA,McLaren,SOFT,79.38,20.4,31.6,60.9,1.9,False
+2026,1,Australian Grand Prix,Melbourne,RUS,Mercedes,SOFT,78.518,20.4,31.6,60.9,1.9,False
+2026,2,Chinese Grand Prix,Shanghai,ALB,Williams,SOFT,94.772,18.0,32.3,34.1,1.9,False
+2026,2,Chinese Grand Prix,Shanghai,ALO,Aston Martin,SOFT,95.203,18.0,32.1,33.8,1.1,False
+2026,2,Chinese Grand Prix,Shanghai,ANT,Mercedes,SOFT,92.064,17.6,30.0,34.2,2.1,False
+2026,2,Chinese Grand Prix,Shanghai,BEA,Haas F1 Team,SOFT,93.197,17.7,30.3,35.2,4.5,False
+2026,2,Chinese Grand Prix,Shanghai,BOR,Audi,SOFT,93.549,18.0,32.1,33.8,1.1,False
+2026,2,Chinese Grand Prix,Shanghai,BOT,Cadillac,SOFT,95.436,18.0,32.2,33.8,1.5,False
+2026,2,Chinese Grand Prix,Shanghai,COL,Alpine,SOFT,93.357,17.7,29.9,34.3,2.8,False
+2026,2,Chinese Grand Prix,Shanghai,GAS,Alpine,SOFT,92.873,17.6,30.0,34.2,2.1,False
+2026,2,Chinese Grand Prix,Shanghai,HAD,Red Bull Racing,SOFT,93.121,17.6,29.6,34.5,2.8,False
+2026,2,Chinese Grand Prix,Shanghai,HAM,Ferrari,SOFT,92.415,17.6,30.0,34.2,2.1,False
+2026,2,Chinese Grand Prix,Shanghai,HUL,Audi,SOFT,93.354,17.7,29.8,35.3,3.9,False
+2026,2,Chinese Grand Prix,Shanghai,LAW,Racing Bulls,SOFT,93.765,17.6,30.3,35.0,2.7,False
+2026,2,Chinese Grand Prix,Shanghai,LEC,Ferrari,SOFT,92.428,17.6,30.0,34.2,2.1,False
+2026,2,Chinese Grand Prix,Shanghai,LIN,Racing Bulls,SOFT,93.784,17.7,30.3,35.2,4.5,False
+2026,2,Chinese Grand Prix,Shanghai,NOR,McLaren,SOFT,92.608,17.7,29.9,34.0,0.7,False
+2026,2,Chinese Grand Prix,Shanghai,OCO,Haas F1 Team,SOFT,93.538,17.7,30.3,35.2,4.5,False
+2026,2,Chinese Grand Prix,Shanghai,PER,Cadillac,SOFT,96.906,18.0,32.1,33.8,1.1,False
+2026,2,Chinese Grand Prix,Shanghai,PIA,McLaren,SOFT,92.55,17.7,29.9,34.0,0.7,False
+2026,2,Chinese Grand Prix,Shanghai,RUS,Mercedes,SOFT,92.286,17.7,29.5,34.5,2.3,False
+2026,2,Chinese Grand Prix,Shanghai,SAI,Williams,SOFT,94.317,18.0,32.3,34.1,1.9,False
+2026,2,Chinese Grand Prix,Shanghai,STR,Aston Martin,SOFT,95.995,18.0,32.1,33.8,1.1,False
+2026,2,Chinese Grand Prix,Shanghai,VER,Red Bull Racing,SOFT,93.002,17.6,29.6,34.5,2.8,False
+2026,3,Japanese Grand Prix,Suzuka,ALB,Williams,SOFT,91.088,16.5,30.2,50.2,2.2,False
+2026,3,Japanese Grand Prix,Suzuka,ALO,Aston Martin,SOFT,92.646,16.5,30.2,50.2,2.2,False
+2026,3,Japanese Grand Prix,Suzuka,ANT,Mercedes,SOFT,88.778,16.4,27.5,50.8,1.3,False
+2026,3,Japanese Grand Prix,Suzuka,BEA,Haas F1 Team,SOFT,91.09,16.5,30.2,50.2,2.2,False
+2026,3,Japanese Grand Prix,Suzuka,BOR,Audi,SOFT,89.99,16.7,28.9,46.1,1.5,False
+2026,3,Japanese Grand Prix,Suzuka,BOT,Cadillac,SOFT,92.33,16.6,30.1,46.9,1.0,False
+2026,3,Japanese Grand Prix,Suzuka,COL,Alpine,SOFT,90.627,16.7,28.9,46.1,1.5,False
+2026,3,Japanese Grand Prix,Suzuka,GAS,Alpine,SOFT,89.691,16.3,26.9,55.8,1.3,False
+2026,3,Japanese Grand Prix,Suzuka,HAD,Red Bull Racing,SOFT,89.978,16.4,27.8,51.9,0.8,False
+2026,3,Japanese Grand Prix,Suzuka,HAM,Ferrari,SOFT,89.567,16.4,27.8,51.9,0.8,False
+2026,3,Japanese Grand Prix,Suzuka,HUL,Audi,SOFT,90.358,16.6,30.1,46.9,1.0,False
+2026,3,Japanese Grand Prix,Suzuka,LAW,Racing Bulls,SOFT,90.495,16.7,28.9,46.1,1.5,False
+2026,3,Japanese Grand Prix,Suzuka,LEC,Ferrari,SOFT,89.303,16.5,28.7,47.4,2.7,False
+2026,3,Japanese Grand Prix,Suzuka,LIN,Racing Bulls,SOFT,90.109,16.7,28.9,46.1,1.5,False
+2026,3,Japanese Grand Prix,Suzuka,NOR,McLaren,SOFT,89.409,16.4,27.5,50.8,1.3,False
+2026,3,Japanese Grand Prix,Suzuka,OCO,Haas F1 Team,SOFT,90.309,16.6,28.9,46.5,2.2,False
+2026,3,Japanese Grand Prix,Suzuka,PER,Cadillac,SOFT,92.206,16.5,30.2,50.2,2.2,False
+2026,3,Japanese Grand Prix,Suzuka,PIA,McLaren,SOFT,89.132,16.4,27.5,50.8,1.3,False
+2026,3,Japanese Grand Prix,Suzuka,RUS,Mercedes,SOFT,89.076,16.4,27.5,50.8,1.3,False
+2026,3,Japanese Grand Prix,Suzuka,SAI,Williams,SOFT,90.927,16.5,30.2,50.2,2.2,False
+2026,3,Japanese Grand Prix,Suzuka,STR,Aston Martin,SOFT,92.92,16.6,31.5,53.3,0.9,False
+2026,3,Japanese Grand Prix,Suzuka,VER,Red Bull Racing,SOFT,90.262,16.6,28.9,46.5,2.2,False
+2026,4,Miami Grand Prix,Miami Gardens,ALB,Williams,SOFT,89.72,33.9,52.3,31.0,3.4,False
+2026,4,Miami Grand Prix,Miami Gardens,ALO,Aston Martin,SOFT,91.098,33.8,53.1,32.1,3.3,False
+2026,4,Miami Grand Prix,Miami Gardens,ANT,Mercedes,SOFT,87.798,33.9,51.0,29.0,4.5,False
+2026,4,Miami Grand Prix,Miami Gardens,BEA,Haas F1 Team,SOFT,89.34,33.8,53.1,32.1,3.3,False
+2026,4,Miami Grand Prix,Miami Gardens,BOR,Audi,SOFT,93.737,33.8,51.7,31.3,3.6,False
+2026,4,Miami Grand Prix,Miami Gardens,BOT,Cadillac,SOFT,91.629,33.8,51.7,31.3,3.6,False
+2026,4,Miami Grand Prix,Miami Gardens,COL,Alpine,SOFT,88.762,33.9,51.0,29.0,4.5,False
+2026,4,Miami Grand Prix,Miami Gardens,GAS,Alpine,SOFT,88.81,34.0,50.2,29.1,3.8,False
+2026,4,Miami Grand Prix,Miami Gardens,HAD,Red Bull Racing,SOFT,88.789,33.9,51.0,29.0,4.5,False
+2026,4,Miami Grand Prix,Miami Gardens,HAM,Ferrari,SOFT,88.319,34.0,50.2,29.1,3.8,False
+2026,4,Miami Grand Prix,Miami Gardens,HUL,Audi,SOFT,89.439,34.1,51.5,28.8,3.1,False
+2026,4,Miami Grand Prix,Miami Gardens,LAW,Racing Bulls,SOFT,89.499,34.1,51.5,28.8,3.1,False
+2026,4,Miami Grand Prix,Miami Gardens,LEC,Ferrari,SOFT,88.143,33.9,51.0,29.0,4.5,False
+2026,4,Miami Grand Prix,Miami Gardens,LIN,Racing Bulls,SOFT,90.133,33.8,51.7,31.3,3.6,False
+2026,4,Miami Grand Prix,Miami Gardens,NOR,McLaren,SOFT,88.183,33.9,51.0,29.0,4.5,False
+2026,4,Miami Grand Prix,Miami Gardens,OCO,Haas F1 Team,SOFT,89.772,34.1,51.5,28.8,3.1,False
+2026,4,Miami Grand Prix,Miami Gardens,PER,Cadillac,SOFT,91.967,33.8,51.7,31.3,3.6,False
+2026,4,Miami Grand Prix,Miami Gardens,PIA,McLaren,SOFT,88.332,34.1,51.5,28.8,3.1,False
+2026,4,Miami Grand Prix,Miami Gardens,RUS,Mercedes,SOFT,88.197,33.9,51.0,29.0,4.5,False
+2026,4,Miami Grand Prix,Miami Gardens,SAI,Williams,SOFT,89.54,33.8,51.7,31.3,3.6,False
+2026,4,Miami Grand Prix,Miami Gardens,STR,Aston Martin,SOFT,91.164,33.8,53.1,32.1,3.3,False
+2026,4,Miami Grand Prix,Miami Gardens,VER,Red Bull Racing,SOFT,87.964,34.0,50.2,29.1,3.8,False
+2026,5,Canadian Grand Prix,Montréal,ALB,Williams,SOFT,74.851,21.2,30.7,23.7,1.5,False
+2026,5,Canadian Grand Prix,Montréal,ALO,Aston Martin,SOFT,75.196,21.4,31.0,23.8,0.9,False
+2026,5,Canadian Grand Prix,Montréal,ANT,Mercedes,SOFT,72.646,21.9,31.0,24.6,1.3,False
+2026,5,Canadian Grand Prix,Montréal,BEA,Haas F1 Team,SOFT,74.416,21.3,30.8,24.4,1.5,False
+2026,5,Canadian Grand Prix,Montréal,BOR,Audi,SOFT,74.071,21.3,30.8,24.4,1.5,False
+2026,5,Canadian Grand Prix,Montréal,BOT,Cadillac,SOFT,76.272,21.3,31.2,24.4,0.4,False
+2026,5,Canadian Grand Prix,Montréal,COL,Alpine,SOFT,73.697,21.4,31.2,24.8,0.0,False
+2026,5,Canadian Grand Prix,Montréal,GAS,Alpine,SOFT,74.187,21.3,30.8,24.4,1.5,False
+2026,5,Canadian Grand Prix,Montréal,HAD,Red Bull Racing,SOFT,72.935,21.5,30.7,24.4,0.5,False
+2026,5,Canadian Grand Prix,Montréal,HAM,Ferrari,SOFT,72.868,21.3,30.9,25.1,1.3,False
+2026,5,Canadian Grand Prix,Montréal,HUL,Audi,SOFT,73.886,21.3,30.9,24.7,1.0,False
+2026,5,Canadian Grand Prix,Montréal,LAW,Racing Bulls,SOFT,73.897,21.3,30.9,24.7,1.0,False
+2026,5,Canadian Grand Prix,Montréal,LEC,Ferrari,SOFT,72.976,21.9,31.0,24.6,1.3,False
+2026,5,Canadian Grand Prix,Montréal,LIN,Racing Bulls,SOFT,73.28,21.9,31.0,24.6,1.3,False
+2026,5,Canadian Grand Prix,Montréal,NOR,McLaren,SOFT,72.729,21.3,30.9,25.1,1.3,False
+2026,5,Canadian Grand Prix,Montréal,OCO,Haas F1 Team,SOFT,74.845,21.4,31.0,23.8,0.9,False
+2026,5,Canadian Grand Prix,Montréal,PER,Cadillac,SOFT,75.429,21.3,30.7,23.5,0.5,False
+2026,5,Canadian Grand Prix,Montréal,PIA,McLaren,SOFT,72.781,21.5,30.7,24.4,0.5,False
+2026,5,Canadian Grand Prix,Montréal,RUS,Mercedes,SOFT,72.578,21.5,30.7,24.4,0.5,False
+2026,5,Canadian Grand Prix,Montréal,SAI,Williams,SOFT,74.273,21.3,30.8,24.4,1.5,False
+2026,5,Canadian Grand Prix,Montréal,STR,Aston Martin,SOFT,76.195,21.3,30.6,24.1,2.2,False
+2026,5,Canadian Grand Prix,Montréal,VER,Red Bull Racing,SOFT,72.907,21.5,30.7,24.4,0.5,False
+2026,6,Monaco Grand Prix,Monte Carlo,ALB,Williams,SOFT,73.787,23.3,34.0,57.0,0.9,False
+2026,6,Monaco Grand Prix,Monte Carlo,ALO,Aston Martin,SOFT,75.349,23.9,40.4,54.4,0.8,False
+2026,6,Monaco Grand Prix,Monte Carlo,ANT,Mercedes,SOFT,72.051,23.3,32.5,59.3,0.9,False
+2026,6,Monaco Grand Prix,Monte Carlo,BEA,Haas F1 Team,SOFT,74.814,23.7,36.8,51.2,0.9,False
+2026,6,Monaco Grand Prix,Monte Carlo,BOR,Audi,SOFT,74.683,24.5,45.6,53.3,1.1,False
+2026,6,Monaco Grand Prix,Monte Carlo,BOT,Cadillac,SOFT,75.283,23.7,36.8,51.2,0.9,False
+2026,6,Monaco Grand Prix,Monte Carlo,COL,Alpine,SOFT,73.995,23.3,34.0,55.8,1.8,False
+2026,6,Monaco Grand Prix,Monte Carlo,GAS,Alpine,SOFT,73.226,23.2,33.1,59.6,0.0,False
+2026,6,Monaco Grand Prix,Monte Carlo,HAD,Red Bull Racing,SOFT,72.434,23.2,33.1,59.6,0.0,False
+2026,6,Monaco Grand Prix,Monte Carlo,HAM,Ferrari,SOFT,72.279,23.2,33.1,59.6,0.0,False
+2026,6,Monaco Grand Prix,Monte Carlo,HUL,Audi,SOFT,73.902,23.6,34.4,54.8,1.5,False
+2026,6,Monaco Grand Prix,Monte Carlo,LAW,Racing Bulls,SOFT,73.412,23.2,33.1,59.6,0.0,False
+2026,6,Monaco Grand Prix,Monte Carlo,LEC,Ferrari,SOFT,72.351,23.2,33.1,59.6,0.0,False
+2026,6,Monaco Grand Prix,Monte Carlo,LIN,Racing Bulls,SOFT,74.248,23.4,34.8,55.5,2.8,False
+2026,6,Monaco Grand Prix,Monte Carlo,NOR,McLaren,SOFT,72.765,23.1,33.0,60.0,0.6,False
+2026,6,Monaco Grand Prix,Monte Carlo,OCO,Haas F1 Team,SOFT,74.722,23.9,40.0,54.4,0.7,False
+2026,6,Monaco Grand Prix,Monte Carlo,PER,Cadillac,SOFT,74.747,24.0,39.8,54.0,0.6,False
+2026,6,Monaco Grand Prix,Monte Carlo,PIA,McLaren,SOFT,72.624,23.2,33.1,59.6,0.0,False
+2026,6,Monaco Grand Prix,Monte Carlo,RUS,Mercedes,SOFT,72.445,23.2,33.1,59.6,0.0,False
+2026,6,Monaco Grand Prix,Monte Carlo,SAI,Williams,SOFT,73.815,23.3,34.0,57.0,0.9,False
+2026,6,Monaco Grand Prix,Monte Carlo,STR,Aston Martin,SOFT,76.061,24.4,44.4,53.4,2.2,False
+2026,6,Monaco Grand Prix,Monte Carlo,VER,Red Bull Racing,SOFT,72.094,23.2,33.1,59.6,0.0,False
+2026,7,Barcelona Grand Prix,Barcelona,ALB,Williams,SOFT,77.424,30.8,50.9,30.1,2.1,False
+2026,7,Barcelona Grand Prix,Barcelona,ALO,Aston Martin,SOFT,78.815,30.8,50.7,29.5,2.9,False
+2026,7,Barcelona Grand Prix,Barcelona,ANT,Mercedes,SOFT,74.998,30.4,48.6,26.6,2.9,False
+2026,7,Barcelona Grand Prix,Barcelona,BEA,Haas F1 Team,SOFT,76.389,30.8,50.1,26.6,2.3,False
+2026,7,Barcelona Grand Prix,Barcelona,BOR,Audi,SOFT,76.001,30.8,50.1,26.6,2.3,False
+2026,7,Barcelona Grand Prix,Barcelona,BOT,Cadillac,SOFT,77.757,30.8,50.7,29.5,2.9,False
+2026,7,Barcelona Grand Prix,Barcelona,COL,Alpine,SOFT,76.191,30.8,50.1,26.6,2.3,False
+2026,7,Barcelona Grand Prix,Barcelona,GAS,Alpine,SOFT,76.261,30.8,50.1,26.6,2.3,False
+2026,7,Barcelona Grand Prix,Barcelona,HAD,Red Bull Racing,SOFT,75.077,30.3,48.8,26.6,1.2,False
+2026,7,Barcelona Grand Prix,Barcelona,HAM,Ferrari,SOFT,74.743,30.3,48.8,26.6,1.2,False
+2026,7,Barcelona Grand Prix,Barcelona,HUL,Audi,SOFT,75.768,30.8,50.1,26.6,2.3,False
+2026,7,Barcelona Grand Prix,Barcelona,LAW,Racing Bulls,SOFT,75.585,30.8,50.1,26.6,2.3,False
+2026,7,Barcelona Grand Prix,Barcelona,LEC,Ferrari,SOFT,75.281,30.6,50.6,28.2,3.3,False
+2026,7,Barcelona Grand Prix,Barcelona,LIN,Racing Bulls,SOFT,75.84,30.6,50.8,28.5,2.5,False
+2026,7,Barcelona Grand Prix,Barcelona,NOR,McLaren,SOFT,75.001,30.4,48.6,26.6,2.9,False
+2026,7,Barcelona Grand Prix,Barcelona,OCO,Haas F1 Team,SOFT,77.073,30.8,50.9,30.1,2.1,False
+2026,7,Barcelona Grand Prix,Barcelona,PER,Cadillac,SOFT,77.545,30.8,50.7,29.5,2.9,False
+2026,7,Barcelona Grand Prix,Barcelona,PIA,McLaren,SOFT,75.09,30.3,48.8,26.6,1.2,False
+2026,7,Barcelona Grand Prix,Barcelona,RUS,Mercedes,SOFT,74.679,30.4,48.6,26.6,2.9,False
+2026,7,Barcelona Grand Prix,Barcelona,SAI,Williams,SOFT,76.881,30.8,50.7,29.5,2.9,False
+2026,7,Barcelona Grand Prix,Barcelona,STR,Aston Martin,SOFT,78.758,30.8,50.9,30.1,2.1,False
+2026,7,Barcelona Grand Prix,Barcelona,VER,Red Bull Racing,SOFT,75.021,30.3,48.8,26.6,1.2,False
+2026,8,Austrian Grand Prix,Spielberg,ALB,Williams,SOFT,68.509,33.6,52.7,24.7,1.4,False
+2026,8,Austrian Grand Prix,Spielberg,ALO,Aston Martin,SOFT,69.942,33.6,52.2,24.6,1.2,False
+2026,8,Austrian Grand Prix,Spielberg,ANT,Mercedes,SOFT,66.414,33.3,51.5,25.5,0.5,False
+2026,8,Austrian Grand Prix,Spielberg,BEA,Haas F1 Team,SOFT,67.523,33.4,52.1,25.3,0.6,False
+2026,8,Austrian Grand Prix,Spielberg,BOR,Audi,SOFT,67.293,33.6,52.1,25.8,1.8,False
+2026,8,Austrian Grand Prix,Spielberg,BOT,Cadillac,SOFT,69.03,33.6,52.7,24.7,1.4,False
+2026,8,Austrian Grand Prix,Spielberg,COL,Alpine,SOFT,67.894,33.6,52.0,24.3,0.9,False
+2026,8,Austrian Grand Prix,Spielberg,GAS,Alpine,SOFT,67.223,33.6,52.1,25.8,1.8,False
+2026,8,Austrian Grand Prix,Spielberg,HAD,Red Bull Racing,SOFT,66.632,33.3,51.1,24.7,0.9,False
+2026,8,Austrian Grand Prix,Spielberg,HAM,Ferrari,SOFT,66.408,33.3,51.1,24.7,0.9,False
+2026,8,Austrian Grand Prix,Spielberg,HUL,Audi,SOFT,67.611,33.6,52.1,25.8,1.8,False
+2026,8,Austrian Grand Prix,Spielberg,LAW,Racing Bulls,SOFT,66.955,33.4,50.8,25.1,0.7,False
+2026,8,Austrian Grand Prix,Spielberg,LEC,Ferrari,SOFT,66.349,33.4,50.8,25.1,0.7,False
+2026,8,Austrian Grand Prix,Spielberg,LIN,Racing Bulls,SOFT,67.007,33.4,50.8,25.1,0.7,False
+2026,8,Austrian Grand Prix,Spielberg,NOR,McLaren,SOFT,66.502,33.4,50.8,25.1,0.7,False
+2026,8,Austrian Grand Prix,Spielberg,OCO,Haas F1 Team,SOFT,67.817,33.4,52.1,25.3,0.6,False
+2026,8,Austrian Grand Prix,Spielberg,PER,Cadillac,SOFT,68.945,33.6,52.7,24.7,1.4,False
+2026,8,Austrian Grand Prix,Spielberg,PIA,McLaren,SOFT,66.511,33.4,50.8,25.1,0.7,False
+2026,8,Austrian Grand Prix,Spielberg,RUS,Mercedes,SOFT,66.113,33.4,50.8,25.1,0.7,False
+2026,8,Austrian Grand Prix,Spielberg,SAI,Williams,SOFT,68.252,33.6,52.0,24.3,0.9,False
+2026,8,Austrian Grand Prix,Spielberg,STR,Aston Martin,SOFT,70.363,33.6,52.7,24.7,1.4,False
+2026,8,Austrian Grand Prix,Spielberg,VER,Red Bull Racing,SOFT,66.475,33.3,51.5,25.5,0.5,False
+2026,9,British Grand Prix,Silverstone,ALB,Williams,SOFT,90.638,25.3,41.0,48.1,2.9,False
+2026,9,British Grand Prix,Silverstone,ALO,Aston Martin,SOFT,92.888,25.2,40.7,47.2,2.8,False
+2026,9,British Grand Prix,Silverstone,ANT,Mercedes,SOFT,88.111,25.4,41.2,49.3,2.2,False
+2026,9,British Grand Prix,Silverstone,BEA,Haas F1 Team,SOFT,90.501,25.3,41.9,46.8,1.9,False
+2026,9,British Grand Prix,Silverstone,BOR,Audi,SOFT,89.461,25.3,41.9,46.8,1.9,False
+2026,9,British Grand Prix,Silverstone,BOT,Cadillac,SOFT,91.227,25.3,41.0,48.1,2.9,False
+2026,9,British Grand Prix,Silverstone,COL,Alpine,SOFT,91.321,25.1,39.2,49.4,1.6,False
+2026,9,British Grand Prix,Silverstone,GAS,Alpine,SOFT,90.063,25.3,41.7,47.6,4.9,False
+2026,9,British Grand Prix,Silverstone,HAD,Red Bull Racing,SOFT,88.746,25.3,41.2,49.3,2.2,False
+2026,9,British Grand Prix,Silverstone,HAM,Ferrari,SOFT,88.458,25.3,41.2,49.3,2.2,False
+2026,9,British Grand Prix,Silverstone,HUL,Audi,SOFT,89.539,25.2,40.7,47.2,2.8,False
+2026,9,British Grand Prix,Silverstone,LAW,Racing Bulls,SOFT,89.3,25.2,40.7,47.2,2.8,False
+2026,9,British Grand Prix,Silverstone,LEC,Ferrari,SOFT,88.286,25.3,41.2,49.3,2.2,False
+2026,9,British Grand Prix,Silverstone,LIN,Racing Bulls,SOFT,89.305,25.4,41.2,49.3,2.2,False
+2026,9,British Grand Prix,Silverstone,NOR,McLaren,SOFT,88.877,25.4,41.2,49.3,2.2,False
+2026,9,British Grand Prix,Silverstone,OCO,Haas F1 Team,SOFT,90.68,25.3,41.0,48.1,2.9,False
+2026,9,British Grand Prix,Silverstone,PER,Cadillac,SOFT,91.451,25.2,40.7,47.2,2.8,False
+2026,9,British Grand Prix,Silverstone,PIA,McLaren,SOFT,89.032,25.3,41.2,49.3,2.2,False
+2026,9,British Grand Prix,Silverstone,RUS,Mercedes,SOFT,88.481,25.3,38.2,49.0,3.6,False
+2026,9,British Grand Prix,Silverstone,SAI,Williams,SOFT,90.562,25.3,41.0,48.1,2.9,False
+2026,9,British Grand Prix,Silverstone,STR,Aston Martin,SOFT,92.863,25.3,41.0,48.1,2.9,False
+2026,9,British Grand Prix,Silverstone,VER,Red Bull Racing,SOFT,88.893,25.3,41.2,49.3,2.2,False
+2026,10,Belgian Grand Prix,Spa-Francorchamps,ALB,Williams,SOFT,107.12,21.3,37.0,54.2,2.3,False
+2026,10,Belgian Grand Prix,Spa-Francorchamps,ALO,Aston Martin,SOFT,110.002,21.3,37.0,54.2,2.3,False
+2026,10,Belgian Grand Prix,Spa-Francorchamps,ANT,Mercedes,SOFT,104.361,20.7,35.0,55.8,2.7,False
+2026,10,Belgian Grand Prix,Spa-Francorchamps,BEA,Haas F1 Team,SOFT,106.779,20.5,34.7,56.8,2.4,False
+2026,10,Belgian Grand Prix,Spa-Francorchamps,BOR,Audi,SOFT,105.628,20.7,35.0,55.8,2.7,False
+2026,10,Belgian Grand Prix,Spa-Francorchamps,BOT,Cadillac,SOFT,107.823,21.3,37.0,54.2,2.3,False
+2026,10,Belgian Grand Prix,Spa-Francorchamps,COL,Alpine,SOFT,106.392,20.5,34.7,56.8,2.4,False
+2026,10,Belgian Grand Prix,Spa-Francorchamps,GAS,Alpine,SOFT,106.331,20.5,34.7,56.8,2.4,False
+2026,10,Belgian Grand Prix,Spa-Francorchamps,HAD,Red Bull Racing,SOFT,105.823,20.5,34.7,56.8,2.4,False
+2026,10,Belgian Grand Prix,Spa-Francorchamps,HAM,Ferrari,SOFT,104.895,20.7,35.0,55.8,2.7,False
+2026,10,Belgian Grand Prix,Spa-Francorchamps,HUL,Audi,SOFT,106.671,20.7,34.3,56.3,1.8,False
+2026,10,Belgian Grand Prix,Spa-Francorchamps,LAW,Racing Bulls,SOFT,106.12,20.7,34.3,56.3,1.8,False
+2026,10,Belgian Grand Prix,Spa-Francorchamps,LEC,Ferrari,SOFT,104.893,20.8,35.1,55.0,2.3,False
+2026,10,Belgian Grand Prix,Spa-Francorchamps,LIN,Racing Bulls,SOFT,105.143,20.7,35.0,55.8,2.7,False
+2026,10,Belgian Grand Prix,Spa-Francorchamps,NOR,McLaren,SOFT,104.801,20.8,35.1,55.0,2.3,False
+2026,10,Belgian Grand Prix,Spa-Francorchamps,OCO,Haas F1 Team,SOFT,107.801,21.3,37.0,54.2,2.3,False
+2026,10,Belgian Grand Prix,Spa-Francorchamps,PER,Cadillac,SOFT,107.971,21.3,37.0,54.2,2.3,False
+2026,10,Belgian Grand Prix,Spa-Francorchamps,PIA,McLaren,SOFT,105.016,20.7,35.2,56.9,2.4,False
+2026,10,Belgian Grand Prix,Spa-Francorchamps,RUS,Mercedes,SOFT,104.869,20.7,35.0,55.8,2.7,False
+2026,10,Belgian Grand Prix,Spa-Francorchamps,SAI,Williams,SOFT,106.777,20.5,34.7,56.8,2.4,False
+2026,10,Belgian Grand Prix,Spa-Francorchamps,STR,Aston Martin,SOFT,110.177,21.3,37.0,54.2,2.3,False
+2026,10,Belgian Grand Prix,Spa-Francorchamps,VER,Red Bull Racing,SOFT,104.678,20.7,35.0,55.8,2.7,False
+2026,11,Hungarian Grand Prix,Budapest,ALB,Williams,SOFT,80.658,27.1,47.6,23.0,1.9,False
+2026,11,Hungarian Grand Prix,Budapest,ALO,Aston Martin,SOFT,79.808,26.9,46.8,22.6,1.4,False
+2026,11,Hungarian Grand Prix,Budapest,ANT,Mercedes,SOFT,77.479,26.4,42.4,24.0,0.4,False
+2026,11,Hungarian Grand Prix,Budapest,BEA,Haas F1 Team,SOFT,80.233,27.0,47.2,23.0,1.4,False
+2026,11,Hungarian Grand Prix,Budapest,BOR,Audi,SOFT,79.069,27.1,47.6,23.0,1.9,False
+2026,11,Hungarian Grand Prix,Budapest,BOT,Cadillac,SOFT,80.886,27.0,47.2,23.0,1.4,False
+2026,11,Hungarian Grand Prix,Budapest,COL,Alpine,SOFT,79.027,26.8,46.5,23.9,2.0,False
+2026,11,Hungarian Grand Prix,Budapest,GAS,Alpine,SOFT,78.844,26.8,46.5,23.9,2.0,False
+2026,11,Hungarian Grand Prix,Budapest,HAD,Red Bull Racing,SOFT,77.856,26.6,43.4,23.4,1.6,False
+2026,11,Hungarian Grand Prix,Budapest,HAM,Ferrari,SOFT,77.219,26.6,42.1,23.8,2.3,False
+2026,11,Hungarian Grand Prix,Budapest,HUL,Audi,SOFT,78.639,26.8,46.5,23.9,2.0,False
+2026,11,Hungarian Grand Prix,Budapest,LAW,Racing Bulls,SOFT,78.765,26.8,46.5,23.9,2.0,False
+2026,11,Hungarian Grand Prix,Budapest,LEC,Ferrari,SOFT,77.445,26.6,42.1,23.8,2.3,False
+2026,11,Hungarian Grand Prix,Budapest,LIN,Racing Bulls,SOFT,78.281,26.6,43.4,23.4,1.6,False
+2026,11,Hungarian Grand Prix,Budapest,NOR,McLaren,SOFT,77.207,26.4,42.4,24.0,0.4,False
+2026,11,Hungarian Grand Prix,Budapest,OCO,Haas F1 Team,SOFT,79.734,26.8,46.5,23.9,2.0,False
+2026,11,Hungarian Grand Prix,Budapest,PER,Cadillac,SOFT,81.322,27.0,47.2,23.0,1.4,False
+2026,11,Hungarian Grand Prix,Budapest,PIA,McLaren,SOFT,77.684,26.6,43.4,23.4,1.6,False
+2026,11,Hungarian Grand Prix,Budapest,RUS,Mercedes,SOFT,77.76,26.6,42.1,23.8,2.3,False
+2026,11,Hungarian Grand Prix,Budapest,SAI,Williams,SOFT,80.621,27.1,47.6,23.0,1.9,False
+2026,11,Hungarian Grand Prix,Budapest,STR,Aston Martin,SOFT,80.659,26.9,48.5,22.7,2.9,False
+2026,11,Hungarian Grand Prix,Budapest,VER,Red Bull Racing,SOFT,77.725,26.6,43.4,23.4,1.6,False
